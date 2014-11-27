@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intel.beijing.weather.MainActivity" >
+
+    <item
+        android:id="@+id/action_START"
+        android:title="START"/>
+    <item
+        android:id="@+id/action_STOP"
+        android:title="STOP"/>
+
+</menu>
