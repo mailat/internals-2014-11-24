@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/white">
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:id="@+id/image_view"
+		android:layout_weight="1.0" />
+	<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<Button android:layout_width="150dip"
+		android:layout_height="50dip" 
+		android:onClick="btnRestart_onClick"
+		android:background="@drawable/style_button"
+		android:text="Take a new photo"
+		android:layout_alignParentLeft="true">
+		</Button>
+		<Button android:layout_width="150dip"
+			android:layout_height="50dip" 
+			android:layout_alignParentRight="true"
+			android:background="@drawable/style_button"
+			android:onClick="btnDetectFace_onClick"
+			android:text="@string/detect_face">
+		</Button>
+	</RelativeLayout>
+</LinearLayout>

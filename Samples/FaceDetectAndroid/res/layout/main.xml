@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fillViewport="true">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@drawable/white">
+
+<LinearLayout android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:layout_marginBottom="20dip">
+	<ImageView android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/android_avatar">
+	</ImageView>
+	<TextView  
+   	android:layout_width="wrap_content" 
+   	android:layout_height="wrap_content" 
+   	android:text="Face Detection Android"
+   	android:textStyle="bold"
+   	android:textSize="17dp"
+   	android:textColor="@drawable/black"
+   	android:gravity="center_vertical"/>
+</LinearLayout>
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/app_info"
+    	android:textColor="@drawable/black"
+    	android:gravity="center_horizontal"
+    	android:layout_marginBottom="20dip">
+    	</TextView>
+    <Button
+    	android:layout_width="150dip" 
+    	android:layout_height="50dip"
+    	android:id="@+id/take_picture"
+    	android:text="Choose a photo"
+    	android:onClick="btnChooseAPhoto_onClick"
+    	android:background="@drawable/style_button"
+    	android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+</ScrollView>

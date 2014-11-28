@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/layoutDialog"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bg_android" 
+	android:orientation="vertical"
+	android:padding="10dip"
+	android:layout_width="wrap_content">
+	<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="5dip">
+	<ImageView 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/ic_app"
+	android:layout_alignParentLeft="true">
+	</ImageView>
+	<TextView 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="About Detect Face"
+	android:textSize="17dp"
+	android:textColor="@drawable/white"
+	android:layout_alignParentRight="true">
+	</TextView>
+	</RelativeLayout>
+	<TextView 
+	android:id="@+id/txtVersion" 
+	android:layout_height="wrap_content"
+	android:textColor="#fff"  
+	android:textStyle="bold"
+	android:layout_width="wrap_content" 
+	android:text="Version 1.0 "
+    android:paddingBottom="15px">
+    </TextView>
+    <TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/app_info"
+    	android:textColor="@drawable/white"
+    	android:gravity="left"
+    	android:layout_marginBottom="20dip">
+    	</TextView>
+	<Button 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:text="OK" 
+	android:id="@+id/btnCancel" 
+	android:textStyle="bold">
+	</Button>
+</LinearLayout>
