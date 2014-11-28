@@ -34,3 +34,9 @@ Homework Day 4
 Homework Day 5
 
 - Optional: execute the instructions on page 223 : "Creating a Custom SDK Add-on"
+
+Link to presentations:
+
+- What is new in Android L? - http://de.slideshare.net/fastlink2/what-is-new-in-android-appsrise-presentation-at-curious-minds-brasov-2014
+- How secure are the local Android apps? - http://de.slideshare.net/fastlink2/20140917-curious-mindshowsecureareyourlocalapps
+- How secure are the mobile banking apps? - http://de.slideshare.net/fastlink2/droidcon-eastern-europe-2013-how-secure-is-an-androidapp
